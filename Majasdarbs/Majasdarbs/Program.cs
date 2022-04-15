@@ -1,4 +1,30 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+Console.WriteLine("1.uzdevums");
+
+Console.WriteLine("Kā Tevi sauc?");
+string username = Console.ReadLine();
+string usergreeting = "Sveiks " + username + "!";
+Console.WriteLine(usergreeting);
+
+Console.WriteLine();
+Console.WriteLine("=====================");
+Console.WriteLine();
+
+Console.WriteLine("2.uzdevums");
+
+Console.WriteLine("Kāds ir Tavs vecums?");
+string userage = Console.ReadLine();
+int usernumber = int.Parse(userage);
+int result = usernumber + 1;
+Console.WriteLine("Nākamgad Tev paliks " + result);
+
+Console.WriteLine();
+Console.WriteLine("=====================");
+Console.WriteLine();
+
+
+
 Console.WriteLine("Hello, World!");
 string greeting = "Hello te Arnis";
 int number = 10;
@@ -86,17 +112,17 @@ Console.WriteLine("===============================");
 Console.WriteLine();
 
 //// 1. pajautāt lietotāja ievadit vārdu
-//Console.WriteLine("Ievadi savu vārdu!");
+//console.writeline("ievadi savu vārdu!");
 
 //// 2. sagaidīt  ievadi
 
-//string userName = Console.ReadLine();
+//string username = console.readline();
 
 
 ////sasveicināties ar lietotāju
 
-//string UserGreeting = "Sveiks " + userName + "!";
-//Console.WriteLine(UserGreeting);
+//string usergreeting = "sveiks " + username + "!";
+//console.writeline(usergreeting);
 
 
 // 1. pajautāt lietotāja ievadit skaitli
@@ -104,11 +130,11 @@ Console.WriteLine();
 // formatētā tekstā izvadīt skaitli +2
 
 
-//Console.WriteLine("Ievadi savu skaitli!");
-//string userNumberText = Console.ReadLine();
-//int userNumber = int.Parse(userNumberText);
-//int result = userNumber + 2;
-//Console.WriteLine("Tavs skaitlis palielinats par 2 =   " + result);
+//console.writeline("ievadi savu skaitli!");
+//string usernumbertext = console.readline();
+//int usernumber = int.parse(usernumbertext);
+//int result = usernumber + 2;
+//console.writeline("tavs skaitlis palielinats par 2 =   " + result);
 
 int x = 4;
 int y = 5;
