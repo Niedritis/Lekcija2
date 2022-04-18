@@ -100,7 +100,7 @@ Console.WriteLine();
 Console.WriteLine("Ievadi, lūdzu, skaitli");
 int number56 = int.Parse(Console.ReadLine());
 bool isEven = number56 % 2 == 0;
-Console.WriteLine("Skaitlis ir pāra skaitlis " + isEven
+Console.WriteLine("Skaitlis ir pāra skaitlis " + isEven);
 
 
 Console.WriteLine();
