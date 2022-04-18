@@ -109,7 +109,7 @@
 //Console.WriteLine("Ievadi, lūdzu, skaitli");
 //int number56 = int.Parse(Console.ReadLine());
 //bool isEven = number56 % 2 == 0;
-//Console.WriteLine("Skaitlis ir pāra skaitlis " + isEven);
+//Console.WriteLine("Skaitlis ir pāra skaitlis " + isEven
 
 
 Console.WriteLine();
@@ -117,18 +117,14 @@ Console.WriteLine("=====================");
 Console.WriteLine();
 
 
-Console.WriteLine("7.uzdevums");
+Console.WriteLine("9.uzdevums");
 Console.WriteLine();
 
-Console.WriteLine("Lūdzu, ievadi pirmo skaitli");
-int number57 = int.Parse(Console.ReadLine());
-Console.WriteLine("Lūdzu, ievadi otro skaitli");
-int number58 = int.Parse(Console.ReadLine());
-
-int area = number57 * number58;
-Console.WriteLine("Taisnstūra laukums ir " +area);
-
-
+Console.WriteLine("Lūdzu ievadi savu vārdu");
+string userName = Console.ReadLine();
+Console.WriteLine("Lūdzu ievadi savu veumu");
+int userAge = int.Parse(Console.ReadLine());
+Console.WriteLine($"Sveiks {userName}, tavs vecums ir {userAge}.");
 
 
 //Console.WriteLine("Mazākais skaitlis ir " + Smollest2);
