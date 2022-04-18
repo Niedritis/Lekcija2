@@ -145,3 +145,7 @@ Console.WriteLine("Lūdzu ievadi savu vecumu");
 int userAge = int.Parse(Console.ReadLine());
 Console.WriteLine($"Sveiks {userName}, tavs vecums ir {userAge}.");
 
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("=====================");
+Console.WriteLine(Gatavs);
