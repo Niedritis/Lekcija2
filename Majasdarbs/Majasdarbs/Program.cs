@@ -148,4 +148,4 @@ Console.WriteLine($"Sveiks {userName}, tavs vecums ir {userAge}.");
 Console.WriteLine();
 Console.WriteLine();
 Console.WriteLine("=====================");
-Console.WriteLine(Gatavs);
+Console.WriteLine("Gatavs");
