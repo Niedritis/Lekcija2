@@ -77,7 +77,39 @@
 //int SMALL2 = Math.Min(usernumberM3, usernumberM4);
 //int SMALL3 = Math.Min(SMALL1, SMALL2);
 
-//Console.WriteLine("Mazākais skaitlis ir " + SMALL3);
+////Console.WriteLine("Mazākais skaitlis ir " + SMALL3);
+
+
+//Console.WriteLine();
+//Console.WriteLine("=====================");
+//Console.WriteLine();
+
+
+//Console.WriteLine("5.uzdevums");
+//Console.WriteLine();
+
+
+//Console.WriteLine("Ievadi pirmo skaitli");
+//string number51 = Console.ReadLine();
+//int usernumber51 = int.Parse(number51);
+//Console.WriteLine("Ievadi otro skaitli");
+//string number52 = Console.ReadLine();
+//int usernumber52 = int.Parse(number52);
+//int leftafter = usernumber51 % usernumber52;
+////Console.WriteLine("Dalijuma atlikums ir " + leftafter);
+
+//Console.WriteLine();
+//Console.WriteLine("=====================");
+//Console.WriteLine();
+
+
+//Console.WriteLine("6.uzdevums");
+//Console.WriteLine();
+
+//Console.WriteLine("Ievadi, lūdzu, skaitli");
+//int number56 = int.Parse(Console.ReadLine());
+//bool isEven = number56 % 2 == 0;
+//Console.WriteLine("Skaitlis ir pāra skaitlis " + isEven);
 
 
 Console.WriteLine();
@@ -85,18 +117,18 @@ Console.WriteLine("=====================");
 Console.WriteLine();
 
 
-Console.WriteLine("5.uzdevums");
+Console.WriteLine("7.uzdevums");
 Console.WriteLine();
 
+Console.WriteLine("Lūdzu, ievadi pirmo skaitli");
+int number57 = int.Parse(Console.ReadLine());
+Console.WriteLine("Lūdzu, ievadi otro skaitli");
+int number58 = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Ievadi pirmo skaitli");
-string number51 = Console.ReadLine();
-int usernumber51 = int.Parse(number51);
-Console.WriteLine("Ievadi otro skaitli");
-string number52 = Console.ReadLine();
-int usernumber52 = int.Parse(number52);
-int leftafter = usernumber51 % usernumber52;
-Console.WriteLine("Dalijuma atlikums ir " + leftafter);
+int area = number57 * number58;
+Console.WriteLine("Taisnstūra laukums ir " +area);
+
+
 
 
 //Console.WriteLine("Mazākais skaitlis ir " + Smollest2);
